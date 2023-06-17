@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f7f8;
+  padding: 0 30px;
+}
+
+header div:first-child {
+  margin-left: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+header a {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header #Karyera {
+  color: #0056c1;
+  font-weight: 500;
+  padding: 6px 12px;
+  border: 1.5px solid #0056c1;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+
+header #Karyera:hover {
+  color: #ffffff;
+  background-color: #0056c1;
+  text-decoration: none;
+}
+
+header p {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+
+header p .fa-magnifying-glass {
+  color: #bbbbbb;
+  font-size: smaller;
+  margin-right: 8px;
+}
+
+header p .fa-phone {
+  margin-right: 4px;
+}
+
+header #Search.active .fa-magnifying-glass {
+  color: #0073ff;
+}
+
+header #Search.active span {
+  color: #0056c1;
+}
+
+#SearchBar input {
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 300;
+
+} 
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons span {
+  margin-right: 5px;}
+
+
+
+
+
+
+
+  .boxs {
+    width: 700px;
+    margin: 3rem auto;
+    border: 2px solid #15be89;
+    height: 200px;
+  }
+  
+  .boxs input {
+    height: 50px;
+    border: 1px solid rgba(21, 190, 137, 0.7333333333);
+  }
+  
+  .box {
+    border: 1px solid rgba(21, 190, 137, 0.7333333333);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+  
